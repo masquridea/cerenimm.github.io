@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>Affet Beni Ceren ❤️</title>
+  <style>
+    body {
+      background: linear-gradient(to right, #ffdde1, #ee9ca7);
+      font-family: 'Segoe UI', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      text-align: center;
+      animation: fadeIn 2s ease-in;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    .card {
+      background: white;
+      padding: 40px;
+      border-radius: 25px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+      max-width: 500px;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      color: #d6336c;
+    }
+
+    p {
+      font-size: 1.2rem;
+      color: #333;
+      margin-top: 20px;
+    }
+
+    .heart {
+      font-size: 50px;
+      animation: heartbeat 1s infinite;
+      color: red;
+    }
+
+    @keyframes heartbeat {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.3); }
+    }
+
+    button {
+      margin-top: 30px;
+      padding: 15px 30px;
+      font-size: 1rem;
+      background-color: #ff6b81;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    button:hover {
+      background-color: #fa3c63;
+    }
+
+    audio {
+      margin-top: 30px;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="heart">❤️</div>
+    <h1>Ceren, seni çok üzdüysem özür dilerim...</h1>
+    <p>Her şeyden çok seni önemsiyorum.  
+    Bu küçük sayfa, sana olan sevgimi anlatmaya yetmez ama en azından bir adım olsun istedim.</p>
+    <p>Senin gülüşün, dünyadaki en güzel şey.<br>Yine gülebilir misin benimle?</p>
+    <button onclick="alert('Ceren, seni seviyorum ve bunu düzeltmek için elimden geleni yapacağım. 💖')">
+      Eğer affettiysen tıkla 💌
+    </button>
+    <audio controls autoplay loop>
+  <source src="sarilinca.mp3" type="audio/mpeg">
+  Tarayıcın bu ses öğesini desteklemiyor.
+</audio>
+  </div>
+</body>
+</html>
